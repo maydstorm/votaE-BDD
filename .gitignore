@@ -1,0 +1,19 @@
+﻿# Build / output
+bin/
+obj/
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+
+# Secrets e configs sensíveis
+Properties/secrets.json
+
+# Arquivos de log ou temporários
+*.log
+*.tmp
+
+# Ignorar arquivos temporários do Visual Studio
+.vs/
+

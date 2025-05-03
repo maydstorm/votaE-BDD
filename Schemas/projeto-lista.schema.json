@@ -1,0 +1,114 @@
+﻿{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1746233372.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "projetoId",
+      "titulo",
+      "descricao",
+      "status",
+      "votos",
+      "dataCadastro",
+      "dataEnvio",
+      "dataAprovacao",
+      "sugestaoId"
+    ],
+    "properties": {
+      "projetoId": {
+        "$id": "#root/items/projetoId",
+        "title": "ProjetoId",
+        "type": "integer",
+        "examples": [
+          41
+        ],
+        "default": 0
+      },
+      "titulo": {
+        "$id": "#root/items/titulo",
+        "title": "Titulo",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Construir um parquinho"
+        ],
+        "pattern": "^.*$"
+      },
+      "descricao": {
+        "$id": "#root/items/descricao",
+        "title": "Descricao",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Criar um parquinho paras as crianças na praça"
+        ],
+        "pattern": "^.*$"
+      },
+      "status": {
+        "$id": "#root/items/status",
+        "title": "Status",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Aprovado"
+        ],
+        "pattern": "^.*$"
+      },
+      "votos": {
+        "$id": "#root/items/votos",
+        "title": "Votos",
+        "type": "integer",
+        "examples": [
+          43
+        ],
+        "default": 0
+      },
+      "dataCadastro": {
+        "$id": "#root/items/dataCadastro",
+        "title": "DataCadastro",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "2024-11-25T22:09:01"
+        ],
+        "pattern": "^.*$"
+      },
+      "dataEnvio": {
+        "$id": "#root/items/dataEnvio",
+        "title": "DataEnvio",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "2024-11-27T23:09:17"
+        ],
+        "pattern": "^.*$"
+      },
+      "dataAprovacao": {
+        "$id": "#root/items/dataAprovacao",
+        "title": "DataAprovacao",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "2024-11-27T23:09:17"
+        ],
+        "pattern": "^.*$"
+      },
+      "sugestaoId": {
+        "$id": "#root/items/sugestaoId",
+        "title": "SugestaoId",
+        "type": "integer",
+        "examples": [
+          3
+        ],
+        "default": 0
+      }
+    }
+  }
+
+}

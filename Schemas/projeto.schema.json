@@ -1,0 +1,114 @@
+﻿{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1746138796.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "projetoId",
+    "descricao",
+    "titulo",
+    "status",
+    "votos",
+    "dataCadastro",
+    "dataEnvio",
+    "dataAprovacao",
+    "sugestaoId",
+    "sugestao"
+  ],
+  "properties": {
+    "projetoId": {
+      "$id": "#root/projetoId",
+      "title": "ProjetoId",
+      "type": "integer",
+      "examples": [
+        66
+      ],
+      "default": 0
+    },
+    "descricao": {
+      "$id": "#root/descricao",
+      "title": "Descricao",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Criar um parquinho paras as crianças na praça"
+      ],
+      "pattern": "^.*$"
+    },
+    "titulo": {
+      "$id": "#root/titulo",
+      "title": "Titulo",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Teste de autenticacao"
+      ],
+      "pattern": "^.*$"
+    },
+    "status": {
+      "$id": "#root/status",
+      "title": "Status",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Aprovado"
+      ],
+      "pattern": "^.*$"
+    },
+    "votos": {
+      "$id": "#root/votos",
+      "title": "Votos",
+      "type": "integer",
+      "examples": [
+        82
+      ],
+      "default": 0
+    },
+    "dataCadastro": {
+      "$id": "#root/dataCadastro",
+      "title": "DataCadastro",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-11-25T22:21:35"
+      ],
+      "pattern": "^.*$"
+    },
+    "dataEnvio": {
+      "$id": "#root/dataEnvio",
+      "title": "DataEnvio",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-11-27T23:09:17.343Z"
+      ],
+      "pattern": "^.*$"
+    },
+    "dataAprovacao": {
+      "$id": "#root/dataAprovacao",
+      "title": "DataAprovacao",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-11-27T23:09:17.343Z"
+      ],
+      "pattern": "^.*$"
+    },
+    "sugestaoId": {
+      "$id": "#root/sugestaoId",
+      "title": "SugestaoId",
+      "type": "integer",
+      "examples": [
+        61
+      ],
+      "default": 0
+    },
+    "sugestao": {
+      "$id": "#root/sugestao",
+      "title": "Sugestao",
+      "type": "null",
+      "default": null
+    }
+  }
+}

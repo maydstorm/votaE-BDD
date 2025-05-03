@@ -1,0 +1,72 @@
+﻿{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1746231745.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "usuarioId",
+      "nome",
+      "email",
+      "telefone",
+      "usuarioRole"
+    ],
+    "properties": {
+      "usuarioId": {
+        "$id": "#root/items/usuarioId",
+        "title": "Usuarioid",
+        "type": "integer",
+        "examples": [
+          92
+        ],
+        "default": 0
+      },
+      "nome": {
+        "$id": "#root/items/nome",
+        "title": "Nome",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Ana Carolina"
+        ],
+        "pattern": "^.*$"
+      },
+      "email": {
+        "$id": "#root/items/email",
+        "title": "Email",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "anacarolina@teste.com"
+        ],
+        "pattern": "^.*$"
+      },
+      "telefone": {
+        "$id": "#root/items/telefone",
+        "title": "Telefone",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "456789"
+        ],
+        "pattern": "^.*$"
+      },
+      "usuarioRole": {
+        "$id": "#root/items/usuarioRole",
+        "title": "Usuariorole",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "user"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+  }
+
+}

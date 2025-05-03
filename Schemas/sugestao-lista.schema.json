@@ -1,0 +1,100 @@
+﻿{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1746226964.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "sugestaoId",
+      "descricao",
+      "titulo",
+      "localizacao",
+      "observacao",
+      "dataCriacao",
+      "usuarioId",
+      "usuario"
+    ],
+    "properties": {
+      "sugestaoId": {
+        "$id": "#root/items/sugestaoId",
+        "title": "Sugestaoid",
+        "type": "integer",
+        "examples": [
+          3
+        ],
+        "default": 0
+      },
+      "descricao": {
+        "$id": "#root/items/descricao",
+        "title": "Descricao",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Criar um parquinho paras as crianças na praça"
+        ],
+        "pattern": "^.*$"
+      },
+      "titulo": {
+        "$id": "#root/items/titulo",
+        "title": "Titulo",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Construir um parquinho"
+        ],
+        "pattern": "^.*$"
+      },
+      "localizacao": {
+        "$id": "#root/items/localizacao",
+        "title": "Localizacao",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Avenidade Tiquatira"
+        ],
+        "pattern": "^.*$"
+      },
+      "observacao": {
+        "$id": "#root/items/observacao",
+        "title": "Observacao",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Essa avenida tem um espaço que seria muito bom para construir um parque para as crianças terem um espaço de diversão."
+        ],
+        "pattern": "^.*$"
+      },
+      "dataCriacao": {
+        "$id": "#root/items/dataCriacao",
+        "title": "Datacriacao",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "2024-11-25T22:21:35"
+        ],
+        "pattern": "^.*$"
+      },
+      "usuarioId": {
+        "$id": "#root/items/usuarioId",
+        "title": "Usuarioid",
+        "type": "integer",
+        "examples": [
+          5
+        ],
+        "default": 0
+      },
+      "usuario": {
+        "$id": "#root/items/usuario",
+        "title": "Usuario",
+        "type": "null",
+        "default": null
+      }
+    }
+  }
+
+}
